@@ -1,0 +1,163 @@
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.custom-table th, .custom-table td {
+    border: solid 2px blue;
+    padding: 8px;
+    text-align: left;
+  }
+  
+.custom-table th {
+      background-color:  black;
+    background-color: #e6e6e6;
+  }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a.active {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+}
+.group {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.inline-block {
+    flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+    
+}
+
+
+.group legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group div {
+    margin-bottom: 10px;
+}
+
+.group input[type="radio"] {
+    display: none;
+}
+
+.group label {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.group input[type="radio"]:checked + label {
+    border: 2px solid orange;
+}
+
+#WURZELNESS:checked + label {
+    background-color: #ffa500;
+}
+
+#PAPPELMASER:checked + label {
+    background-color: #808080;
+}
+
+#KLAVIERLACK:checked + label {
+    background-color: #708090;
+}
+.group div {
+    background-color: #fff;
+}
+
+#SCHWARZ:checked + label {
+    background-color: #808080;
+}
+
+#MACCIATOBEIGE:checked + label {
+    background-color: orange;
+}
+
+#KRISTALLWEISS:checked + label {
+    background-color: #e6e6e6;
+}
+
+#MAGMAGRAU:checked + label {
+    background-color: #333333;
+}
+.groupeRadio{
+    display: flex;
+}
+#scanner {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    #scanner:focus {
+    border: 2px solid orange;
+    }
+    input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      input[type="reset"] {
+        width: 100%;
+        background-color: #f44336; /* Couleur rouge */
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="reset"]:hover {
+        background-color: #cc0000; 
+      }
+      .success {
+      color: green;
+        width: 100%;
+       
+       
+        
+      }
+     
+      
+      
+     
+      
+
+
